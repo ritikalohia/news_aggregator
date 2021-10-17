@@ -6,7 +6,7 @@
 </head>
 <body>
     <div class="jumbotron">
-        <center><h1>News Aggregator</h1>
+        <center><h1>HackersFriend News Aggregator</h1>
            <a href="/" class="btn btn-danger">Refresh News</a>
         </form>
     </center>
@@ -16,7 +16,7 @@
             <div class="col-6">
                     <h3 class="text-centre"> News from Times of india</h3>
                     {% for n in toi_news %}
-                    <h6> -  {{n}} </h6>
+                    <h4> -  {{n}} </h4>
                     <hr>
                     {% endfor %}
                     <br>
@@ -24,7 +24,7 @@
             <div class="col-6">
                     <h3 class="text-centre">News from The Hindu</h3>
                     {% for htn in ht_news %}
-                    <h6> - {{htn}} </h6>
+                    <h5> - {{htn}} </h5>
                     <hr>
                     {% endfor %}
                     <br>
